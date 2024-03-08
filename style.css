@@ -1,0 +1,144 @@
+body{
+    background-color: #C5FFF8;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.background-gradient{
+    background: linear-gradient(300deg,#cdc7c4,#c0f4f1,#DAEAF1,#FCDC2A);
+    background-size: 180% 180%;
+    animation: gradient-animation 15s ease infinite;
+}
+@keyframes gradient-animation{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 50% 75%;
+    }
+    75%{
+        background-position: 75% 100%;
+    }
+    100%{
+        background-position: 100% 0%;
+    }
+}
+.header-container{
+    flex: 1;
+    height: 100vh;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 300px;
+}
+.profile-pic{
+    height: 75px;
+    width:75px;
+    border-radius: 50%;
+}
+.list{
+    list-style-type: none;
+}
+.intro{
+    padding-left: 25%;
+    padding-bottom: 200px;
+    margin-bottom:50px;
+    text-align: left;
+    position: absolute;
+}
+.top-container{
+
+    position: relative;
+    text-align: center;
+}
+.middle-container{
+    flex: 1;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    width: 100%;
+    background-color:azure;
+    text-align: center;
+}
+.grad-hat{
+    height: 1rem;
+    border-radius: 50%;
+    background-color: azure;
+}
+.Education-details{
+    width: 100%;
+    padding-left: 0%;
+    text-align: left;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 70%;
+    margin: 100px auto 0 auto;
+    padding-left: 5rem;
+    text-align: left;
+    row-gap: 2rem;
+}
+.img{
+    height: 7rem;
+    border-radius: 50%;
+}
+.code-lines{
+    height: 20px;
+}
+.voicepathology{
+    height: 40px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+.webdev{
+    height: 45px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+.projimg{
+    height: 9rem;
+    border-radius: 50%;
+    padding-top: 4rem;
+}
+hr {
+    border: dotted #eaf6f6 6px;
+    border:0%;
+    margin: 0px;
+    padding-top: 0%;
+    border-bottom: none;
+    width: 4%;
+  }
+  .certicon{
+      height: 25px;
+  }
+  .contact{
+      text-align: center;
+  }
+  .bottom-container{
+
+    padding: 50px 0px 50px 0px;
+  }
+  .btn {
+      /* display: inline-block; */
+      padding: 10px 20px 10px 20px;
+      background-color: #2fe3ffd9;
+      color: #190482;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      margin-bottom: 50px;
+  }
+  .btn:active{
+      background-color: #a04545;
+  }
+  .footer-link{
+    text-decoration: none;
+    text-align: center;
+    color:rgb(209, 152, 237);
+    margin: 10px 10px;
+  }
+
+
